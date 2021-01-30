@@ -21,6 +21,7 @@ export class Empresa {
 }
 
 //forma mais rápida
+//Quando uma classe é criada, ela vira um tipo.
 export class Colaborador {
     constructor(public readonly nome: string,public readonly sobrenome : string){}
 }
@@ -33,6 +34,11 @@ const colaborador3 = new Colaborador('Fabiana','Fernandes');
 empresa1.adcionaColaborador(colaborador1);
 empresa1.adcionaColaborador(colaborador2);
 empresa1.adcionaColaborador(colaborador3);
+empresa1.adcionaColaborador({
+    nome :'TEste',
+    sobrenome : 'testando'
+});
+
 empresa1.mostrarColaboradores();
 //console.log(empresa1);
 //console.log(colaborador1);
