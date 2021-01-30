@@ -22,7 +22,8 @@ export class Pessoa {
 //Sobrescrevendo métodos(polimorfismo)
 //extend é a herança
 export class Aluno extends Pessoa{
-    //super : quando preciso adcionar atributos aos filhos
+    //quando preciso adcionar atributos aos filhos,
+    //recebo os atributos do pai, e crio do filho(sala)
     constructor(
          nome:string,
          sobrenome : string,
