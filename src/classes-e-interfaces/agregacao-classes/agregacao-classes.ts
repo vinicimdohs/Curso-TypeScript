@@ -1,3 +1,4 @@
+//Agregação: Um carrinho de compras precisa ter produtos para fazer sentido.
 export class Carrinhodecompras {
     private readonly produtos : Produto[] = [];
 
